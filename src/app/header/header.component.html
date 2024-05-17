@@ -1,0 +1,14 @@
+<header class="header">
+  <mat-toolbar color="primary">
+    <button mat-icon-button *ngIf="showBackArrow" (click)="goBack()" class="back-button">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <span class="logo" *ngIf="!title">{{pageTitle}}</span>
+   
+    <mat-form-field appearance="fill" class="search-field">
+      <input matInput placeholder="Search" [(ngModel)]="searchQuery" class="search-input"  (ngModelChange)="onSearchChange($event)">
+    </mat-form-field>
+  </mat-toolbar>
+</header>
+
+  

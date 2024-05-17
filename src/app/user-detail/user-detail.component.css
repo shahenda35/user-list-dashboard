@@ -1,0 +1,23 @@
+.user-detail{
+    display: flex;
+    justify-content: center;
+}
+
+.user-detail-card{
+    min-width: 40%;
+    align-items: center;
+    min-height: 30vh;
+    justify-content: center;
+}
+
+mat-card-title-group {
+    margin-left: 5rem;
+}
+
+mat-card-subtitle{
+    font-size: 2rem;
+}
+
+mat-card-title{
+    font-size: 3rem;
+}

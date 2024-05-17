@@ -1,0 +1,14 @@
+<div *ngIf="userData" class="user-detail">
+    <mat-card class="user-detail-card">
+        <mat-card-header >
+          <img mat-card-lg-image [src]="userData.avatar" alt="User Avatar"  >
+          <mat-card-title-group>
+            <mat-card-subtitle>{{userData.id}}</mat-card-subtitle>
+            <mat-card-title>{{userData.first_name}}</mat-card-title>
+            <mat-card-subtitle>{{userData.last_name}}</mat-card-subtitle>
+            <mat-card-title>{{userData.email}}</mat-card-title>
+          </mat-card-title-group>
+        </mat-card-header>
+      </mat-card>
+</div>
+

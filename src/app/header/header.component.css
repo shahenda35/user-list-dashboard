@@ -1,0 +1,38 @@
+  .header {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 2rem;
+  }
+
+  .back-button{
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    line-height: 2.7rem;
+  }
+  
+  .search-field{
+    height: 6rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+  }
+
+  mat-form-field{
+    width: 20%;
+  }
+  
+  mat-toolbar {
+    width: 80%;
+    justify-content: space-around  ;
+    display: flex;
+    align-items: center;
+  }
